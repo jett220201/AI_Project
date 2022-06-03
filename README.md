@@ -17,9 +17,13 @@ Para la implementación de este clasificador se elaboro un dataset de fotos de r
 
 Para la construcción del dataset las imágenes fueron procesadas usando OpenCv en Python, de ellas se extrajeron 7 características correspondientes a los 7 momentos de Hu de cada fotografía.
 
- 
+En cuanto a las etiquetas, estas fotografías fueron etiquetadas manualmente siguiendo la Norma 2184 de 2019 del gobierno de Colombia para la clasificación de residuos. Pero este clasificador solo considera el caso binario, es decir, aprovechable o no aprovechable.
+
+  - 1 -> Residuo Aprovechable
+  - 0 -> Residuo No Aprovechable
  
  ## Desarrollo
+ 
  
  
  ## Resultados
