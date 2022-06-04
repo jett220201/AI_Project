@@ -45,6 +45,8 @@ MCC =  0.2196969696969697
  
  ## Conclusiones
  
+Tras la ejecución del presente proyecto salieron a la luz varias consideraciones pues dado que se tiene un conjunto de datos propio al que se le hace de igual manera la abstracción de características por parte de los autores utilizando los momentos de Hu, se ha notado que estas características no conforman un Dataset lo suficientemente robusto para generar un clasificador puesto que los mejores resultados de MCC obtenidos ni siquiera se aproximan al 50%, esto se debe quizá a varios factores como por ejemplo el desbalanceo de clases, la cantidad reducida de muestras de las que se abstrajo las características o quizá la naturaleza misma de los objetos que se quiere clasificar. Por otra parte, se destaca que aunque se siguió un proceso sistemático para el procesamiento del Dataset generado, la dudosa calidad de este es el factor que definió el rendimiento general del clasificador y por ello se concluye que en futuros trabajos se debe cambiar o mejorar el proceso de abstracción de características en caso de generar un Dataset propio partiendo de las muestras utilizadas actualmente.
+ 
  ## Video
  
 
